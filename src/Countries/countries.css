@@ -1,0 +1,43 @@
+
+.Countries-header {
+  background-image: linear-gradient(to bottom, #f5f2f0 0%, #f5f2f0 50%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+
+}
+img {
+
+  padding: 1vmin;
+  width: 4vmin;
+}
+
+
+hrow{
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+htext{
+  padding: 2vmin;
+  width: 35%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+hcol{
+      width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+

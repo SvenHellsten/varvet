@@ -1,0 +1,32 @@
+
+:local(.root) {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.title {
+  position: absolute;
+  color: darkblue;
+  font-size: calc(10vmin);
+  font-family: Futura, Helvetica, sans-serif;
+  z-index: 1
+}
+.subtitle {
+  position: relative;
+  color: crimson;
+  font-size: calc(7vmin);
+  font-family: Futura, Helvetica, sans-serif;
+  z-index: 2;
+}
+
+h1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
