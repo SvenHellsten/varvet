@@ -1,14 +1,12 @@
+.leaflet-container {
+  width: 90%;
+  height: 90vh;
+}
+;
 .App {
   text-align: center;
   background-color: white;
 }
-
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
   background-image: linear-gradient(to bottom, #7DE2FC 0%, #f5f2f0 100%);
   min-height: 100vh;

@@ -381,15 +381,20 @@ const Countries = () => (
               </hcol>
               <htext>
               <ScrollAnimation   animateIn='fadeInUp'>
-                39221 löpare från 93 länder sprang i mål!
+                3337 löpare från 93 länder sprang i mål!
                   </ScrollAnimation>
 
               </htext>
 
 
+              
 
-
-          </header>
+          </header >
+          <header className="Countries-header">
+          <ScrollAnimation   animateIn='fadeInUp'>
+              <h2>1266 löpare satte ett nytt Personbästa!</h2>
+                  </ScrollAnimation>
+                  </header>
         </div>
 );
 

@@ -1,7 +1,7 @@
 
 .Countries-header {
   background-image: linear-gradient(to bottom, #f5f2f0 0%, #f5f2f0 50%);
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -15,6 +15,11 @@ img {
   width: 4vmin;
 }
 
+h2{
+  color: darkblue;
+  font-size: calc(4vmin);
+  font-family: Futura, Helvetica, sans-serif;
+}
 
 hrow{
   display: inline-flex;
